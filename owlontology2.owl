@@ -1,0 +1,806 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ianva/ontologies/2022/4/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ianva/ontologies/2022/4/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/ianva/ontologies/2022/4/untitled-ontology-5#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-5" IRI="http://www.semanticweb.org/ianva/ontologies/2022/4/untitled-ontology-5#"/>
+    <Declaration>
+        <Class IRI="#Academy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Al_Pacino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Awards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BAFTA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Achievement_in_Directing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Directing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_screenplay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biografie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cathy_Scorsesi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dark_commedie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Films"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italiaanse_neo-realisme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leonardo_DiCaprio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Martin_Scorsesi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outstanding_Directing_for_a_Drama_Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outstanding_Nonfiction_Special"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scripts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Top_10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trailers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emmy&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gangster/crime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Award__voor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Award_voor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Behoort_tot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Behoort_tot_categorie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Beïnvloed_door_filmstroming"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Geadverteerd_met"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Heeft_als_favoriete_films"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Heeft_gewonnen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Is_vader_van"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Persoonlijke_info_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Regisseert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Schrijft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Van_organisatie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Werkt_samen_met"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#award_voor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Acteert_in_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bevat_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Heeft_als_jaar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Heeft_grote_rol_in_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#In_jaar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Speelt_in_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Van_organisatie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Voor_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bevat_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#voor_film"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#voor_serie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#After_Hours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bicycle_thieves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boardwalk_Empire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goodfellas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hugo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raging_Bull"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shutter_Island"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taxi_driver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Aviator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Departed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Irishman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_King_of_Comedie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolf_of_Wallstreet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George_Harrison:_Living_in_the_Material_World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roma,_open_city"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Academy"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Al_Pacino"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awards"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BAFTA"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Achievement_in_Directing"/>
+        <Class IRI="#Academy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Directing"/>
+        <Class IRI="#BAFTA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_film"/>
+        <Class IRI="#BAFTA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_screenplay"/>
+        <Class IRI="#BAFTA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bio"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biografie"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cathy_Scorsesi"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark_commedie"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Films"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genres"/>
+        <Class IRI="#Films"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italiaanse_neo-realisme"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leonardo_DiCaprio"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outstanding_Directing_for_a_Drama_Series"/>
+        <Class IRI="#Emmy&apos;s"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outstanding_Nonfiction_Special"/>
+        <Class IRI="#Emmy&apos;s"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posters"/>
+        <Class IRI="#Films"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scripts"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thriller"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Top_10"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trailers"/>
+        <Class IRI="#Films"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emmy&apos;s"/>
+        <Class IRI="#Awards"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gangster/crime"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Dark_commedie"/>
+        <NamedIndividual IRI="#After_Hours"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italiaanse_neo-realisme"/>
+        <NamedIndividual IRI="#Bicycle_thieves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outstanding_Directing_for_a_Drama_Series"/>
+        <NamedIndividual IRI="#Boardwalk_Empire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scripts"/>
+        <NamedIndividual IRI="#Casino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Best_Directing"/>
+        <NamedIndividual IRI="#Goodfellas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Best_film"/>
+        <NamedIndividual IRI="#Goodfellas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Best_screenplay"/>
+        <NamedIndividual IRI="#Goodfellas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gangster/crime"/>
+        <NamedIndividual IRI="#Goodfellas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biografie"/>
+        <NamedIndividual IRI="#Hugo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biografie"/>
+        <NamedIndividual IRI="#Raging_Bull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cathy_Scorsesi"/>
+        <NamedIndividual IRI="#Shutter_Island"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thriller"/>
+        <NamedIndividual IRI="#Shutter_Island"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scripts"/>
+        <NamedIndividual IRI="#Silence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biografie"/>
+        <NamedIndividual IRI="#Taxi_driver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biografie"/>
+        <NamedIndividual IRI="#The_Aviator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Best_Achievement_in_Directing"/>
+        <NamedIndividual IRI="#The_Departed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cathy_Scorsesi"/>
+        <NamedIndividual IRI="#The_Departed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gangster/crime"/>
+        <NamedIndividual IRI="#The_Departed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Al_Pacino"/>
+        <NamedIndividual IRI="#The_Irishman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gangster/crime"/>
+        <NamedIndividual IRI="#The_Irishman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dark_commedie"/>
+        <NamedIndividual IRI="#The_King_of_Comedie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Leonardo_DiCaprio"/>
+        <NamedIndividual IRI="#Wolf_of_Wallstreet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gangster/crime"/>
+        <NamedIndividual IRI="#Wolf_of_Wallstreet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outstanding_Nonfiction_Special"/>
+        <NamedIndividual IRI="#George_Harrison:_Living_in_the_Material_World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Italiaanse_neo-realisme"/>
+        <NamedIndividual IRI="#Roma,_open_city"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#After_Hours"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Bicycle_thieves"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#voor_serie"/>
+        <NamedIndividual IRI="#Boardwalk_Empire"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Voor_film"/>
+        <NamedIndividual IRI="#Casino"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Goodfellas"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Voor_film"/>
+        <NamedIndividual IRI="#Goodfellas"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Hugo"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Raging_Bull"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Acteert_in_film"/>
+        <NamedIndividual IRI="#Shutter_Island"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Shutter_Island"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Voor_film"/>
+        <NamedIndividual IRI="#Silence"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Taxi_driver"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#The_Aviator"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Acteert_in_film"/>
+        <NamedIndividual IRI="#The_Departed"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#The_Departed"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#The_Irishman"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Heeft_grote_rol_in_film"/>
+        <NamedIndividual IRI="#The_Irishman"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#The_King_of_Comedie"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Wolf_of_Wallstreet"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Heeft_grote_rol_in_film"/>
+        <NamedIndividual IRI="#Wolf_of_Wallstreet"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#voor_serie"/>
+        <NamedIndividual IRI="#George_Harrison:_Living_in_the_Material_World"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bevat_film"/>
+        <NamedIndividual IRI="#Roma,_open_city"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Award__voor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Beïnvloed_door_filmstroming"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Van_organisatie"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Award__voor"/>
+        <Class IRI="#Academy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Award_voor"/>
+        <Class IRI="#Emmy&apos;s"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Behoort_tot"/>
+        <Class IRI="#Films"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Behoort_tot_categorie"/>
+        <Class IRI="#Genres"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Beïnvloed_door_filmstroming"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Geadverteerd_met"/>
+        <Class IRI="#Films"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Heeft_als_favoriete_films"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Heeft_gewonnen"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Is_vader_van"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Persoonlijke_info_in"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Regisseert"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Schrijft"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Van_organisatie"/>
+        <Class IRI="#Awards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Werkt_samen_met"/>
+        <Class IRI="#Martin_Scorsesi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#award_voor"/>
+        <Class IRI="#BAFTA"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Award__voor"/>
+        <Class IRI="#Best_Achievement_in_Directing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Award_voor"/>
+        <Class IRI="#Outstanding_Directing_for_a_Drama_Series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Award_voor"/>
+        <Class IRI="#Outstanding_Nonfiction_Special"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Behoort_tot"/>
+        <Class IRI="#Genres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Behoort_tot_categorie"/>
+        <Class IRI="#Biografie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Behoort_tot_categorie"/>
+        <Class IRI="#Dark_commedie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Behoort_tot_categorie"/>
+        <Class IRI="#Thriller"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Behoort_tot_categorie"/>
+        <Class IRI="#Gangster/crime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Beïnvloed_door_filmstroming"/>
+        <Class IRI="#Italiaanse_neo-realisme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Geadverteerd_met"/>
+        <Class IRI="#Posters"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Geadverteerd_met"/>
+        <Class IRI="#Trailers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Heeft_als_favoriete_films"/>
+        <Class IRI="#Top_10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Heeft_gewonnen"/>
+        <Class IRI="#Awards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Is_vader_van"/>
+        <Class IRI="#Cathy_Scorsesi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Persoonlijke_info_in"/>
+        <Class IRI="#Bio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Regisseert"/>
+        <Class IRI="#Films"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Schrijft"/>
+        <Class IRI="#Scripts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Van_organisatie"/>
+        <Class IRI="#Academy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Van_organisatie"/>
+        <Class IRI="#BAFTA"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Van_organisatie"/>
+        <Class IRI="#Emmy&apos;s"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Werkt_samen_met"/>
+        <Class IRI="#Al_Pacino"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Werkt_samen_met"/>
+        <Class IRI="#Leonardo_DiCaprio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#award_voor"/>
+        <Class IRI="#Best_Directing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#award_voor"/>
+        <Class IRI="#Best_film"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#award_voor"/>
+        <Class IRI="#Best_screenplay"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Heeft_als_jaar"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Acteert_in_film"/>
+        <Class IRI="#Cathy_Scorsesi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bevat_film"/>
+        <Class IRI="#Genres"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Heeft_grote_rol_in_film"/>
+        <Class IRI="#Leonardo_DiCaprio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#In_jaar"/>
+        <Class IRI="#Best_Achievement_in_Directing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Speelt_in_film"/>
+        <Class IRI="#Al_Pacino"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Van_organisatie"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Voor_film"/>
+        <Class IRI="#Awards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Voor_film"/>
+        <Class IRI="#Best_Directing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Voor_film"/>
+        <Class IRI="#Best_film"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Voor_film"/>
+        <Class IRI="#Best_screenplay"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bevat_film"/>
+        <Class IRI="#Italiaanse_neo-realisme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#voor_film"/>
+        <Class IRI="#Scripts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#voor_serie"/>
+        <Class IRI="#Outstanding_Directing_for_a_Drama_Series"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Acteert_in_film"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bevat_film"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Heeft_als_jaar"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Heeft_grote_rol_in_film"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#In_jaar"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Speelt_in_film"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Van_organisatie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Voor_film"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bevat_film"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#voor_serie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
